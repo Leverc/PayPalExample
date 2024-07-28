@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Restaurant</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Delicious Food</h1>
+
+    <div class="card-deck">
+
+      <div class="card">
+        <img src="images/pizza.webp" class="card-img-top" alt="Pizza">
+        <div class="card-body">
+          <h5 class="card-title">Pizza $3.00</h5>
+          <p class="card-text">Gooey cheese pizza with a crispy crust.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="ZGNUX8FVHGGHQ" />
+            <input type="hidden" name="currency_code" value="CAD" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+          </form>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/cheeseburger.webp" class="card-img-top" alt="Burger">
+        <div class="card-body">
+          <h5 class="card-title">Burger $5.00</h5>
+          <p class="card-text">Juicy beef burger with fresh lettuce, tomato, and cheese.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="ZGNUX8FVHGGHQ">
+            <input type="hidden" name="currency_code" value="CAD">
+            <button type="submit" class="btn btn-primary">
+              Buy Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/ice-cream.jpeg" class="card-img-top" alt="Ice Cream">
+        <div class="card-body">
+          <h5 class="card-title">Ice Cream $2.00</h5>
+          <p class="card-text">Rich and creamy chocolate ice cream.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="ZGNUX8FVHGGHQ">
+            <input type="hidden" name="currency_code" value="CAD">
+            <button type="submit" class="btn btn-primary">
+                Buy Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
